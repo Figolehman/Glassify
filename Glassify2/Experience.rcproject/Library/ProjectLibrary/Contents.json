@@ -1,3 +1,37 @@
 [
-
+  {
+    "libraryIdentifier" : "280b6a6ef44fba7025084155085969da",
+    "format" : "model",
+    "displayName" : "Очки__Eye_glasses.usdz"
+  },
+  {
+    "libraryIdentifier" : "f061033c21d929d2da436e20e8e285fe",
+    "format" : "model",
+    "displayName" : "Glasses.usdz"
+  },
+  {
+    "libraryIdentifier" : "72fd6b6e718df33efde0e5aec2cf6f47",
+    "format" : "model",
+    "displayName" : "Glasses-3.usdz"
+  },
+  {
+    "libraryIdentifier" : "7cfb998e5abbc38edccb31197e1ca64d",
+    "format" : "model",
+    "displayName" : "Glasses_4.usdz"
+  },
+  {
+    "libraryIdentifier" : "210ff02d45e2595fb3c894535a2fa49f",
+    "format" : "model",
+    "displayName" : "Glasses-3.usdz"
+  },
+  {
+    "libraryIdentifier" : "0db52ac256ae76e49ff133203a8999eb",
+    "format" : "model",
+    "displayName" : "Glasses-2.usdz"
+  },
+  {
+    "libraryIdentifier" : "830a1c14fa61cafb79b5a89d392960cf",
+    "format" : "model",
+    "displayName" : "Glasses_07.usdz"
+  }
 ]
