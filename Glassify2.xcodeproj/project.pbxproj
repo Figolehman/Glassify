@@ -7,20 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B8385692A1CBB2700210DF0 /* SnapCarousel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B8385682A1CBB2700210DF0 /* SnapCarousel.swift */; };
+		1B83856B2A1CC08700210DF0 /* GlassesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B83856A2A1CC08700210DF0 /* GlassesModel.swift */; };
 		1BCB34202A16326300C81A7D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BCB341F2A16326300C81A7D /* AppDelegate.swift */; };
 		1BCB34222A16326300C81A7D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BCB34212A16326300C81A7D /* ContentView.swift */; };
-		1BCB34242A16326300C81A7D /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 1BCB34232A16326300C81A7D /* Experience.rcproject */; };
 		1BCB34262A16326500C81A7D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BCB34252A16326500C81A7D /* Assets.xcassets */; };
 		1BCB34292A16326500C81A7D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BCB34282A16326500C81A7D /* Preview Assets.xcassets */; };
+		1BCB34302A16344B00C81A7D /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 1BCB342F2A16344B00C81A7D /* Experience.rcproject */; };
+		1BE597FB2A17596F00973175 /* Size.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BE597FA2A17596F00973175 /* Size.swift */; };
+		1BE597FE2A18BB3C00973175 /* ThumbnailGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BE597FD2A18BB3C00973175 /* ThumbnailGenerator.swift */; };
+		1BE598022A1B4B1F00973175 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BE598012A1B4B1F00973175 /* SplashView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1BCB341C2A16326300C81A7D /* Glassify2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Glassify2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B8385682A1CBB2700210DF0 /* SnapCarousel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapCarousel.swift; sourceTree = "<group>"; };
+		1B83856A2A1CC08700210DF0 /* GlassesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlassesModel.swift; sourceTree = "<group>"; };
+		1BCB341C2A16326300C81A7D /* Glassify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Glassify.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BCB341F2A16326300C81A7D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1BCB34212A16326300C81A7D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		1BCB34232A16326300C81A7D /* Experience.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Experience.rcproject; sourceTree = "<group>"; };
 		1BCB34252A16326500C81A7D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1BCB34282A16326500C81A7D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1BCB342F2A16344B00C81A7D /* Experience.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; name = Experience.rcproject; path = ../../Glassify/Glassify/Experience.rcproject; sourceTree = "<group>"; };
+		1BE597FA2A17596F00973175 /* Size.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Size.swift; sourceTree = "<group>"; };
+		1BE597FC2A1768B600973175 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		1BE597FD2A18BB3C00973175 /* ThumbnailGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThumbnailGenerator.swift; sourceTree = "<group>"; };
+		1BE598012A1B4B1F00973175 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,7 +56,7 @@
 		1BCB341D2A16326300C81A7D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1BCB341C2A16326300C81A7D /* Glassify2.app */,
+				1BCB341C2A16326300C81A7D /* Glassify.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -53,9 +64,15 @@
 		1BCB341E2A16326300C81A7D /* Glassify2 */ = {
 			isa = PBXGroup;
 			children = (
+				1BE597FC2A1768B600973175 /* Info.plist */,
+				1B83856A2A1CC08700210DF0 /* GlassesModel.swift */,
+				1B8385682A1CBB2700210DF0 /* SnapCarousel.swift */,
+				1BE598012A1B4B1F00973175 /* SplashView.swift */,
 				1BCB341F2A16326300C81A7D /* AppDelegate.swift */,
 				1BCB34212A16326300C81A7D /* ContentView.swift */,
-				1BCB34232A16326300C81A7D /* Experience.rcproject */,
+				1BE597FD2A18BB3C00973175 /* ThumbnailGenerator.swift */,
+				1BE597FA2A17596F00973175 /* Size.swift */,
+				1BCB342F2A16344B00C81A7D /* Experience.rcproject */,
 				1BCB34252A16326500C81A7D /* Assets.xcassets */,
 				1BCB34272A16326500C81A7D /* Preview Content */,
 			);
@@ -73,9 +90,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1BCB341B2A16326300C81A7D /* Glassify2 */ = {
+		1BCB341B2A16326300C81A7D /* Glassify */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1BCB342C2A16326500C81A7D /* Build configuration list for PBXNativeTarget "Glassify2" */;
+			buildConfigurationList = 1BCB342C2A16326500C81A7D /* Build configuration list for PBXNativeTarget "Glassify" */;
 			buildPhases = (
 				1BCB34182A16326300C81A7D /* Sources */,
 				1BCB34192A16326300C81A7D /* Frameworks */,
@@ -85,9 +102,9 @@
 			);
 			dependencies = (
 			);
-			name = Glassify2;
+			name = Glassify;
 			productName = Glassify2;
-			productReference = 1BCB341C2A16326300C81A7D /* Glassify2.app */;
+			productReference = 1BCB341C2A16326300C81A7D /* Glassify.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -118,7 +135,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1BCB341B2A16326300C81A7D /* Glassify2 */,
+				1BCB341B2A16326300C81A7D /* Glassify */,
 			);
 		};
 /* End PBXProject section */
@@ -140,9 +157,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B83856B2A1CC08700210DF0 /* GlassesModel.swift in Sources */,
+				1BE597FB2A17596F00973175 /* Size.swift in Sources */,
+				1B8385692A1CBB2700210DF0 /* SnapCarousel.swift in Sources */,
 				1BCB34222A16326300C81A7D /* ContentView.swift in Sources */,
+				1BE597FE2A18BB3C00973175 /* ThumbnailGenerator.swift in Sources */,
 				1BCB34202A16326300C81A7D /* AppDelegate.swift in Sources */,
-				1BCB34242A16326300C81A7D /* Experience.rcproject in Sources */,
+				1BCB34302A16344B00C81A7D /* Experience.rcproject in Sources */,
+				1BE598022A1B4B1F00973175 /* SplashView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,7 +296,9 @@
 				DEVELOPMENT_TEAM = JGSV4C4BP3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Glassify2/Info.plist;
 				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "This app needs camera to take a photo";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;
@@ -305,7 +329,9 @@
 				DEVELOPMENT_TEAM = JGSV4C4BP3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Glassify2/Info.plist;
 				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "This app needs camera to take a photo";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;
@@ -337,7 +363,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1BCB342C2A16326500C81A7D /* Build configuration list for PBXNativeTarget "Glassify2" */ = {
+		1BCB342C2A16326500C81A7D /* Build configuration list for PBXNativeTarget "Glassify" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1BCB342D2A16326500C81A7D /* Debug */,
